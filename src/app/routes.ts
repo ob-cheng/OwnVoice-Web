@@ -14,4 +14,6 @@ export const router = createBrowserRouter([
       { path: "privacy", Component: PrivacyPage },
     ],
   },
-]);
+], {
+  basename: import.meta.env.BASE_URL,
+});
