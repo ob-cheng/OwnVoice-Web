@@ -2,7 +2,7 @@ import { motion, useInView } from "motion/react";
 import { SectionWrapper } from "./SectionWrapper";
 import { Github, Linkedin, Heart, Mail } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import founderPhoto from "figma:asset/0b29b1bc4772199803ec616043dfce150644a615.png";
+import founderPhoto from "../../assets/0b29b1bc4772199803ec616043dfce150644a615.png";
 import { useShouldReduceMotion, scaleSubtle } from "../lib/motion-variants";
 import { useRef, useEffect, useCallback } from "react";
 
